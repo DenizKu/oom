@@ -15,6 +15,7 @@ namespace Task2
             Console.WriteLine(fb.ChangeUhrzeit);
             Console.WriteLine(fb.ChangeUhrzeit = "21:45");
             Console.WriteLine(fb.ChangeUhrzeit);
+            fb.findetStatt(true);
 
         }
     }
